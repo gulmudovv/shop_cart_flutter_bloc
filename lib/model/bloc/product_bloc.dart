@@ -30,9 +30,9 @@ class ProductBloc extends Bloc<ProductEvent, ProductState> {
       if(event is ClearCartEvent){
         cartProduct = [];
       }
-      yield LoadedState(items: cartProduct);
+      yield cartProduct.isEmpty?ClearState():LoadedState(items: cartProduct) ;
 
-
+     if(event is ClearCartEvent)yield ClearState();
 
     } catch (error){
       yield FailedState(fail: error as Error);

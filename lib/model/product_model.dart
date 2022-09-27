@@ -42,7 +42,7 @@ class Product {
         Product(id: 3, name: "Power Bank", price: 1000, discount_price: 800, imagurl: "https://static-sl.insales.ru/images/products/1/6305/367638689/ef59fdee77fbe80e3524371c5cf65aca.jpg", note: "new"),
         Product(id: 4, name: "HeadPhone", price: 1000, discount_price: 700, imagurl: "https://goodsonline24.ru/image/cache/catalog/!!!!!!!!!1-90x90.jpg", note: ""),
         Product(id: 5, name: "Samsung Monitor", price: 3000, discount_price: 2500, imagurl: "https://www.printer96.ru/wp-content/uploads/catalog/monitory/monitory-samsung/monitor-27-samsung-s27h850qfi-black-pls-led-wide-2560x1440-4ms-178-178-350-cd-m-100-000-000-1-dp-ndmi-mm-usb-type-c-pivot-freesync.jpg", note: "new"),
-        Product(id: 6, name: "TV LG", price: 5000, discount_price: 4500, imagurl: "https://www.comeaucomputing.com/wp-content/uploads/2019/07/4-9-1024x769.jpg", note: "new"),
+        Product(id: 6, name: "Телевизор LG", price: 5000, discount_price: 4500, imagurl: "https://www.comeaucomputing.com/wp-content/uploads/2019/07/4-9-1024x769.jpg", note: "new"),
         Product(id: 7, name: "Huawei P30", price: 2500, discount_price: 2100, imagurl: "https://www.millionpodarkov.ru/incoming_img/pleer.ru/9185573.jpg", note: "new"),
         Product(id: 8, name: "Phone 14 Pro", price: 4000, discount_price: 3700, imagurl: "https://www.ixbt.com/img/n1/news/2021/11/6/72984127-b426-4638-92eb-c38f277adea4_large.jpg", note: ""),
         Product(id: 9, name: "Sony Playstation 5", price: 3000, discount_price: 2500, imagurl: "https://killprice24.ru/files/categories/premiere-pub-ps5-playstation5.jpg", note: "new"),

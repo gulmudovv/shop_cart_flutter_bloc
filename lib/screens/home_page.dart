@@ -126,17 +126,17 @@ class HomePage extends StatelessWidget {
               padding: EdgeInsets.only(top: 5, left: 10),
               child: item.note!=''
                   ? Text(
-                      "NEW",
+                      "New",
                       style: TextStyle(
                           color: Colors.red,
                           fontWeight: FontWeight.bold,
-                          fontSize: 16),
+                          fontSize: 14),
                     )
                   : Text(""),
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 12.0, top: 5),
+            padding: const EdgeInsets.only(left: 5.0, top: 5, right: 5),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -151,7 +151,7 @@ class HomePage extends StatelessWidget {
                             "\$ ${item.discount_price.toString()}",
                             style: TextStyle(
                               color: Color.fromRGBO(1, 0, 53, 1),
-                              fontSize: 16,
+                              fontSize: 12,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -161,7 +161,7 @@ class HomePage extends StatelessWidget {
                           Text(
                             "\$ ${item.price.toString()}",
                             style: TextStyle(
-                              fontSize: 16,
+                              fontSize: 12,
                               fontWeight: FontWeight.bold,
                               decoration: TextDecoration.lineThrough,
                               color: Colors.grey,
@@ -170,13 +170,13 @@ class HomePage extends StatelessWidget {
                         ],
                       ),
                       SizedBox(
-                        height: 8,
+                        height: 10,
                       ),
                       Text(
                         item.name,
                         style: TextStyle(
                             color: Color.fromRGBO(1, 0, 53, 1),
-                            fontSize: 14,
+                            fontSize: 12,
                             fontWeight: FontWeight.w600),
                       )
                     ],
@@ -189,6 +189,7 @@ class HomePage extends StatelessWidget {
                       },
                       icon: Icon(
                         Icons.shopping_cart,
+                        //size: 10,
                         color: Color.fromRGBO(1, 0, 53, 1),
                       )),
                 ),

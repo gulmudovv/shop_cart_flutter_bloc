@@ -93,7 +93,7 @@ class ShoppingCard extends StatelessWidget{
                                     item.name,
                                     style: TextStyle(
                                         color: Colors.white,
-                                        fontSize: 16,
+                                        fontSize: 14,
                                         fontWeight: FontWeight.bold),
                                   ),
                                   SizedBox(
@@ -102,7 +102,7 @@ class ShoppingCard extends StatelessWidget{
                                   Text(
                                     "\$ ${item.discount_price.toString()}",
                                     style: TextStyle(
-                                        fontSize: 16,
+                                        fontSize: 14,
                                         color: Colors.deepOrange,
                                         fontWeight: FontWeight.bold),
                                   ),
@@ -130,6 +130,10 @@ class ShoppingCard extends StatelessWidget{
                           ),
                         );
                       },
+                    ):state is ClearState?Align(
+                        alignment:Alignment.topCenter,
+                        child: Text("КОРЗИНА ПУСТА", style: TextStyle(color: Colors.white, fontSize: 22),)
+
                     ):Align(
                         alignment:Alignment.topCenter,
                         child: Text("КОРЗИНА ПУСТА", style: TextStyle(color: Colors.white, fontSize: 22),)
